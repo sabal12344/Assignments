@@ -21,7 +21,7 @@ int main(){
       for(j=0;j<c;j++){
         p[i][j]=0;
          for(int k=0;k<c;k++){
-            p[i][j]=p[i][j]+m1[i][k]*m2[k][i];
+            p[i][j]=p[i][j]+m1[i][k]*m2[k][j];
 
          }
          
