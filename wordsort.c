@@ -7,7 +7,7 @@ int main(){
     char temp[25],country[5][40];
     printf("Enter any 5 countries :\n");
     for(i=0;i<5;i++){
-    fgets(country[i],sizeof(country),stdin);//includes countries with more than one word
+    fgets(country[i],sizeof(country[i]),stdin);//includes countries with more than one word
     country[i][strcspn(country[i], "\n")] = '\0';  // Removes newline
     for(j=0;j<strlen(country[i]);j++)
         country[i][j]=tolower(country[i][j]);   
