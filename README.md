@@ -1,2 +1,2 @@
 # Assignments
-This includes all the labwork assigned to me
+This includes some selected labwork assigned to me.
